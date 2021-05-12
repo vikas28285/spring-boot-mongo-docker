@@ -3,7 +3,6 @@ spring:
     mongodb:
       host: ${MONGO_DB_HOSTNAME}
       port: 27017
-      database: users
 
 server:
   port: 8080
